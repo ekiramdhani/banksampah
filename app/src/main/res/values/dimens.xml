@@ -1,0 +1,30 @@
+<resources>
+	<!-- Default screen margins, per the Android Design guidelines. -->
+	<dimen name="activity_horizontal_margin">16dp</dimen>
+	<dimen name="activity_vertical_margin">16dp</dimen>
+
+	<!-- Font Size -->
+	<dimen name="fontSizeLarge">24sp</dimen>
+	<dimen name="fontSizeBig">22sp</dimen>
+	<dimen name="fontSizeMedium">20sp</dimen>
+	<dimen name="fontSizeNormal">14sp</dimen>
+	<dimen name="fontSizeSmall">12sp</dimen>
+
+	<!-- Padding -->
+	<dimen name="defaultPadding">15dp</dimen>
+
+	<!-- Shadow -->
+	<dimen name="shadowDx">1.0</dimen>
+	<dimen name="shadowDy">1.0</dimen>
+	<dimen name="shadowRadius">5.0</dimen>
+
+	<!-- Movie Image -->
+	<dimen name="posterMediumWidth">137dp</dimen>
+	<dimen name="posterMediumHeight">205dp</dimen>
+
+	<dimen name="actionBarHeight">56dp</dimen>
+	<dimen name="statusBarHeight">24dp</dimen>
+	<dimen name="overlayActionBarHeight">80dp</dimen>
+	<dimen name="overlayActionBarHeightWithPadding">95dp</dimen>
+	<dimen name="backdropHeight">363dp</dimen>
+</resources>

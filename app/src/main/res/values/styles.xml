@@ -1,0 +1,48 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<!-- Custom Style -->
+	<style name="AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+		<item name="android:windowLightStatusBar">false</item>
+		<item name="android:windowTranslucentStatus">true</item>
+		<item name="android:windowTranslucentNavigation">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+		<item name="android:windowBackground">@color/cardBackgroundColor</item>
+		<item name="windowActionBarOverlay">true</item>
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<!-- ActionBar -->
+	<style name="AppTheme.NoActionBar.ActionBarStyle" parent="AppTheme.NoActionBar">
+		<item name="colorPrimary">@color/colorSecondary</item>
+	</style>
+
+	<!-- ActionBar Title -->
+	<style name="AppTheme.NoActionBar.TitleTextAppearance" parent="AppTheme.NoActionBar">
+		<item name="font">@font/rubik</item>
+		<item name="fontFamily">@font/rubik_medium</item>
+		<!--<item name="android:text">@string/app_name</item>-->
+		<item name="android:textAlignment">center</item>
+		<item name="android:textSize">@dimen/fontSizeLarge</item>
+		<item name="android:textColor">@color/textColorPrimaryLight</item>
+	</style>
+
+	<!-- ActionBar Subtitle -->
+	<style name="AppTheme.NoActionBar.SubtitleTextAppearance" parent="AppTheme.NoActionBar">
+		<item name="subtitleTextColor">@color/colorSecondary</item>
+		<item name="fontFamily">@font/rubik_light</item>
+		<item name="font">@font/rubik_light</item>
+		<item name="android:textAlignment">center</item>
+		<item name="android:textSize">@dimen/fontSizeNormal</item>
+		<item name="android:textColor">@color/textColorSecondary</item>
+	</style>
+</resources>
